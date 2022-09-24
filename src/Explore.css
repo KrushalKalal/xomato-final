@@ -1,0 +1,219 @@
+.explore_detail{
+    margin:40px 85px;
+}
+
+.other_options{
+    margin-bottom: 60px;
+    width: 100%;
+}
+.other_options .row{
+    width:100%;
+}
+
+.other_options h1{
+    font-size: 2.1rem;
+    font-family:  Okra,Helvetica,sans-serif;
+    color:rgb(54, 54, 54);
+    font-weight: 500;
+}
+
+.other_options h3{
+    margin-top:25px;
+    margin-bottom: 18px;
+    font-size: 1.6rem;
+    font-family:  Okra,Helvetica,sans-serif;
+    color:rgb(54, 54, 54);
+    font-weight: 500;
+}
+
+.explore_details a{
+   text-decoration: none;
+   color:rgb(130,130,130);
+   font-size: 1.1em;
+   font-family:  Okra,Helvetica,sans-serif; 
+}
+
+.explore_details a:hover{
+    color:rgb(28, 28, 28);
+}
+.explore_details i{
+    color: rgb(130,130,130);
+    font-size: 0.3rem;
+    padding: 12px 7px;
+    position: relative;
+    top: -5px;
+    left:2px;
+
+}
+
+.restaurant_details a{
+    text-decoration: none;
+   color:rgb(130,130,130);
+   font-size: 1.1em;
+   font-family:  Okra,Helvetica,sans-serif; 
+}
+.restaurant_details a:hover{
+    color:rgb(28, 28, 28);
+}
+
+.restaurant_details i{
+    color: rgb(130,130,130);
+    font-size: 0.3rem;
+    padding: 12px 6px;
+    position: relative;
+    top: -5px;
+    left:2px; 
+}
+.chains{
+    display: flex;
+}
+.city{
+    margin-left: -3%;
+}
+.city ul li{
+    list-style: none;
+    padding: 9px 6px;
+}
+
+.city ul li a{
+    text-decoration: none;
+    color:rgb(130,130,130);
+    font-size: 1.1em;
+    font-family:  Okra,Helvetica,sans-serif; 
+}
+
+.city ul li a:hover{
+   color:rgb(28, 28, 28);
+}
+
+.city1{
+    margin-left:45px;
+}
+
+.city1 ul li{
+    list-style: none;
+    padding: 9px 6px;
+}
+
+.city1 ul li a{
+    text-decoration: none;
+    color:rgb(130,130,130);
+    font-size: 1.1em;
+    font-family:  Okra,Helvetica,sans-serif; 
+}
+
+.city1 ul li a:hover{
+   color:rgb(28, 28, 28);
+}
+
+.city1 ul li a.see_more{
+    color: rgb(28, 28, 28);
+}
+
+.line{
+    margin: 3px -11px;
+    color:rgb(8, 8, 8);
+    border: 1px solid;
+    width: 85%;
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ .explore_detail {
+     margin: 40px 20px;
+ }
+ .other_options h1{
+     font-size: 1.6rem;
+ }
+ .other_options h3{
+     font-size: 1.4rem;
+ }
+ .other_options .row{
+     padding: 0 !important;
+     margin: 0 !important;
+ }
+ .city {
+    padding: 0 !important;
+    width: 23%;
+ }
+ .city ul li a {
+    font-size: 1em;
+ }
+ .city1 {
+    margin-left: 13px;
+    padding: 0 !important;
+    width: 24%;
+ }
+  .city1 ul li a {
+    font-size: 1em;
+ }
+ .restaurant_margin{
+     margin-left: -3.5%;
+     padding: 0 !important;
+ }
+ .other_options .row>div>ul{
+     padding-left: 1rem;
+
+ }
+   
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+ .explore_detail {
+     margin: 40px 50px;
+ }
+ .other_options h1{
+     font-size: 1.6rem;
+ }
+ .other_options h3{
+     font-size: 1.4rem;
+ }
+ .other_options .row{
+     padding: 0 !important;
+     margin: 0 !important;
+ }
+ .city {
+    margin-left: -5%;
+    padding: 0 !important;
+    width: 20%;
+ }
+ .city1 {
+    margin-left: 11px;
+    padding: 0 !important;
+    width: 20%;
+ }
+ .line {
+    margin: 3px -5px;
+    width: 100%;
+}
+ .restaurant_margin{
+     margin-left: 0%;
+     padding: 0 !important;
+ }
+ .other_options .row>div>ul{
+     padding-left: 2rem;
+
+ }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1440px){
+   
+    .city1 {
+        width: 19%;
+        margin-left: 15px;
+    }  
+    .city {
+        margin-left: -3%;
+    }  
+    .line {
+        margin: 3px -9px;
+        width: 100%;
+    } 
+   
+
+}

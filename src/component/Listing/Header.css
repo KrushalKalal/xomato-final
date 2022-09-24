@@ -1,0 +1,72 @@
+.listing_header_section{
+    padding: 7px;
+    margin: 15px 80px;
+    height: auto !important;
+}
+.zomato_logo{
+    display: flex;
+    margin-left:-4%;
+}
+.zomato_logo img{
+    width: 100%;
+    margin-top: 12px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    width:56%;
+    height: 8vh;
+    border: 1px solid rgb(190, 186, 186);
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px 0;
+    margin-left: 5%;
+    margin-top: 3px;;
+}
+.search select{
+    color: grey;
+    background-color: #fff;
+    border:0px;
+    outline: 0px;
+    border-right: 1px solid grey;
+    font-family: Okra,Helvetica,sans-serif;
+    font-size: 15px;
+}
+.search i{
+    color:gray;
+    padding-left: 10px;
+}
+.search i:first-child{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:rgb(252,119,119);
+    position: relative;
+    left:0;
+}
+.search input{
+    outline: none;
+    border: none;
+    width:50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.listing_nav{
+    display: flex;
+    margin-top: 12px;
+}
+  .listing_nav li{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    cursor: pointer;
+    list-style:none;
+    padding-left: 40px;
+}
+.listing_nav li a{
+      color:gray
+  }
+.listing_nav li a:hover{
+    color:rgb(78,78,78);
+}

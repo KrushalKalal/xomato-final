@@ -1,0 +1,205 @@
+.header_section{
+    width:100%;
+    height:63vh;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.navigation{
+    display: flex;
+    list-style: none;
+    margin-top: 25px;
+    justify-content:space-between;
+    color:#fff;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation  h4{
+    margin-left: 105px;;
+}
+.xomato_nav{
+  display: flex;
+  margin-right: 105px;
+}
+
+.xomato_nav li{
+  font-size: 1.2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+  list-style:none;
+  padding-left: 40px;
+
+}
+
+.xomato_nav li a{
+    color:#fff
+}
+
+.zomato_head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+    font-family: Okra,Helvetica,sans-serif;
+    
+}
+.zomato_head img{
+    width:22%;
+    margin-bottom: 35px;
+}
+
+.zomato_head h3{
+   color:#fff;
+   font-size: 2.2rem;
+   margin-bottom: 35px;
+}
+
+.zomato_head .search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:59%;
+    height: 6vh;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+.zomato_head .search select{
+    color: grey;
+    background-color: #fff;
+    border:0px;
+    outline: 0px;
+    border-right: 1px solid grey;
+    font-family: Okra,Helvetica,sans-serif;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+.search i{
+    color:gray;
+    padding-left: 10px;
+}
+
+.search i:first-child{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color:rgb(252,119,119);
+    position: relative;
+    left:0;
+
+}
+
+.zomato_head .search input{
+    outline: none;
+    border: none;
+    width:50%;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.zomato_background{
+    top:-22vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.zomato_background img{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header_section{
+      height: 50vh;
+    }
+    .zomato_background{
+     top:0vh;
+     height: 100%;
+    }
+    .xomato_nav{
+     margin-right: 4%;
+    }
+    .xomato_nav li {
+        font-size: 1rem;
+    }    
+    .navigation h4 {
+        margin-left: 6%;
+        width: 100%;
+    }
+    .zomato_background img{
+     height: 100%;
+    }
+    .zomato_head{
+     margin-top: 124px;
+    }
+    .zomato_head img {
+     width: 45%;
+    }
+    .zomato_head .search{
+     width: 98%;
+    }
+    .zomato_head h3{
+     font-size: 1.7rem;
+    }
+   
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header_section{
+      height: 53vh;
+    }
+    .zomato_background{
+     top:0vh;
+     height: 100%;
+    }
+ 
+    .zomato_head{
+     margin-top: 150px;
+    }
+    
+   .zomato_head img {
+    width: 35%;
+    }
+    .zomato_head .search{
+        width: 85%;
+    }
+    .xomato_nav {
+        margin-right: 87px;
+    }
+    .navigation h4 {
+        margin-left: 30px;
+    }
+   
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1440px){
+    .header_section{
+        height: 56vh;
+      }
+      .zomato_background{
+       top:0vh;
+       height: 100%;
+      }
+   
+      .zomato_head{
+       margin-top: 130px;
+      }
+      
+     .zomato_head img {
+      width: 35%;
+      }
+      .zomato_head .search{
+          width: 85%;
+      }
+     
+
+}

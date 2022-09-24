@@ -1,0 +1,50 @@
+.filter{
+    border:2px solid #fff;
+    background-color: #fff;
+    border-radius: 3px;
+    height: 145vh;
+    width:19%;
+    margin:0 15px;
+    padding: 15px;
+    color:rgb(90, 87, 87);
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 10%);
+}
+.filter_margin{
+    margin:15px 0;
+}
+.filters{
+    margin:8px 10px;
+}
+.title{
+    font-size:20px;
+    color:rgb(48, 43, 43)
+}
+.search_title{
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+.search_title div{
+    border: 1px solid rgb(130,130,130);
+    padding: 3px;
+    height: 5vh;
+    margin-top: 12px;
+    border-radius: 3px;
+}
+.search_title div i{
+    float: right;
+    font-size: 13px;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.filter_checkbox{
+    margin:15px 0;
+}
+.filter_radio{
+    margin:15px 0;
+}
+.filter_sort{
+    margin:15px 0;
+}
+.filter_cuisine, .filter_price, .filter_sort, .filter_rating, .filter_offer, .filter_discount, input{
+    accent-color: rgb(231, 79, 95) ;
+}
