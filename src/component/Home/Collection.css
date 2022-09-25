@@ -17,7 +17,7 @@
 }
 .collection_content .collection_title .location{
     color: rgb(255, 126, 139);
-    padding-left: 7.5%;
+    padding-left: 11.5%;
     padding-top: 7px;
 }
 
@@ -112,7 +112,7 @@
     }
     .collection_content .collection_title .location{
       padding-top: 5px;
-      padding-left: 4%;
+      padding-left: 13%;
       font-size: 15px
     }
     .collection_content .collection_card img{
@@ -141,7 +141,7 @@
     } 
     .collection_content .collection_title .location{
         padding-top: 7px;
-        padding-left: 2%;
+        padding-left: 13.5%;
         font-size: 14.5px;
       }
       .collection_content .collection_card img{

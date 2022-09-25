@@ -8,8 +8,8 @@ class Collection extends Component{
             <div class="collection_title">
                 <h2>Collections</h2>
                 <div class="row">
-                  <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 title_details">Explore curated lists of top restaurants, cafes, pubs, and bars in Ahmedabad, based on trends</div>
-                  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 location">All collections in Ahmedabad&nbsp;<i class="fas fa-caret-right"></i></div>
+                  <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 title_details">Explore curated lists of top restaurants, cafes, pubs, and bars  based on trends</div>
+                  <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 location">All collections of xomato&nbsp;<i class="fas fa-caret-right"></i></div>
                 </div>
             </div>
             <div class="collection_card">
@@ -38,7 +38,7 @@ class Collection extends Component{
                   <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                       <div class="card_details">
                           <span>
-                              Best of Ahmedabad
+                              Best Places
                               <br />41 Places
                               <i class="fas fa-caret-right"></i>
                           </span>

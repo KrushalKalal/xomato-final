@@ -13,7 +13,7 @@
     margin:15px 0;
 }
 .filters{
-    margin:8px 10px;
+    margin:8px 1px;
 }
 .title{
     font-size:20px;
@@ -48,3 +48,7 @@
 .filter_cuisine, .filter_price, .filter_sort, .filter_rating, .filter_offer, .filter_discount, input{
     accent-color: rgb(231, 79, 95) ;
 }
+
+.filter_cuisine, .filter_price, .filter_rating span{
+    margin-bottom:3%;
+ }

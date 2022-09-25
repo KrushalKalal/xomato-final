@@ -70,3 +70,45 @@
 .listing_nav li a:hover{
     color:rgb(78,78,78);
 }
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .listing_header_section {
+        margin: 15px 32px;
+     }
+ 
+     .search {
+          width: 50%;
+         height: 6vh;
+         margin-left: 23%;
+         margin-top: -52px;
+     }
+ 
+     .listing_nav {
+         margin-top: -50px;
+         margin-left: 70%;
+     }
+    
+   
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .listing_header_section {
+       margin: 15px 32px;
+    }
+
+    .search {
+         width: 50%;
+        height: 7vh;
+        margin-left: 23%;
+        margin-top: -48px;
+    }
+
+    .listing_nav {
+        margin-top: -45px;
+        margin-left: 70%;
+    }
+   
+}
+

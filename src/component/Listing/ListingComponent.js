@@ -29,25 +29,29 @@ class ListingComponent extends Component{
           <Header/>
           <section class="container-fluid">
              <div class="row">
-                 <div class="col-lg-3 filter">
+                 <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 filter">
                     <div class="filters">
                       <div class="title">
                         <span>Filters</span>
+                        <hr/>
                       </div>
                       <CuisineFilter optionId={this.props.match.params.optionId}
                        restPerCuisine={(data) => {this.setDataPerFilter(data)}}
                       />
+                      <hr/>
                       <CostFilter optionId={this.props.match.params.optionId}
                       restPerCost={(data) => {this.setDataPerFilter(data)}}
                       />
+                      <hr/>
                       <RatingFilter optionId={this.props.match.params.optionId}
                       restPerRating={(data) => {this.setDataPerFilter(data)}}
                       />
+                      
                      </div>
                  </div>
-                 <div class="col-lg-9 content">
+                 <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 content">
                    <div class="content_block">
-                     <h2>Order food online in Ahmedabad</h2>
+                     <h2>Order food online on Xomato</h2>
                      <div class="row order_cardmargin">
                        <RestaurantList optionData={this.state.options}/>
                     </div>

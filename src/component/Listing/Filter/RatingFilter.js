@@ -24,28 +24,32 @@ class RatingFilter extends Component{
     render(){
         
         return(
-            <>
+            
               <div class="filter_rating filter_margin" onChange={this.filterRating}>
                     <span>Customer Ratings</span>
                     <div>
-                         <input type="checkbox" name="rating" value="4"/>
+                        <input type="radio" name="rating" value=""/>
+                        <label> All </label>
+                    </div>
+                    <div>
+                         <input type="radio" name="rating" value="4"/>
                          <label>4<i class="fa-solid fa-star"></i> & Above</label>
                      </div>
                      <div>
-                        <input type="checkbox" name="rating" value="3"/>
+                        <input type="radio" name="rating" value="3"/>
                         <label>3<i class="fa-solid fa-star"></i> & Above</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="rating" value="2"/>
+                        <input type="radio" name="rating" value="2"/>
                         <label>2<i class="fa-solid fa-star"></i> & Above</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="rating" value="1"/>
+                        <input type="radio" name="rating" value="1"/>
                         <label>1<i class="fa-solid fa-star"></i> & Above</label>
                     </div>   
                 </div>
                 
-            </>
+            
         )
     }
 }

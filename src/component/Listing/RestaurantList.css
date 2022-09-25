@@ -23,6 +23,7 @@
     color:rgb(90, 87, 87);
 }
 
+
 .order_card h2{
     font-weight: 400;
     margin-bottom: 20px;
@@ -30,6 +31,10 @@
 }
 .order_cardimg{
     position: relative;
+}
+
+.cards{
+    margin-bottom: 5%;
 }
 .order_cardimg img{
     height:36vh;
@@ -102,4 +107,87 @@
     margin-left: -20px;
     height: 3vh;
     width: 170%;
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 767px) {
+    .content {
+        width:100% !important;
+    }
+   
+
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .order_name {
+        font-size: 1.3em;
+    }
+
+    .order_cardimg .order_min {
+        bottom: 2%;
+        right: 2%;
+        padding-top: 1%;
+        width: 20%;
+    }
+
+    .order_rating {
+        margin-top: 0;
+        height: 3vh;
+        padding-top: 0.7%;
+        width: 17%;
+        margin-left: 100px;
+    }
+    
+    .order_price {
+        margin-top: 1%;
+        left: 20%;
+        font-size: 18px;
+    }
+    .order_type {
+        font-size: 16px;
+    }
+
+    .order_safety img {
+        margin-left: -42px;
+        height: 3vh;
+        width: auto;
+    }
+   
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1440px){
+    .order_name {
+        font-size: 1em;
+    }
+
+    .order_cardimg .order_min {
+        bottom: 3%;
+       right: 5%;
+       width: 20%;
+    }
+
+    .order_rating {
+        margin-top: 0;
+        height: 3vh;
+       padding-top: 0.7%;
+       width: 23%;
+       margin-left: 49px;
+    }
+    .order_price {
+        margin-top: 1%;
+        left: 2px;
+        font-size: 12px;
+    }
+    .order_type {
+        font-size: 14px;
+    }
+
+    .order_safety img {
+        margin-left: -42px;
+        height: 3vh;
+        width: auto;
+    }
+     
+
 }

@@ -21,32 +21,37 @@ class CuisineFilter extends Component{
 
     render(){
         return(
-            <>
+            
                 
                 <div class="filter_cuisine filter_margin" onChange={this.filterCuisine}>
                     <span>Cuisine</span>
+                    <div>
+                        <input type="radio" name="cuisine" value=""/>
+                        <label> All </label>
+                    </div>
+
                      <div>
-                         <input type="checkbox" name="cuisine" value="1"/>
+                         <input type="radio" name="cuisine" value="1"/>
                          <label>North Indian</label>
                      </div>
                      <div>
-                        <input type="checkbox" name="cuisine" value="2"/>
+                        <input type="radio" name="cuisine" value="2"/>
                         <label>South Indian</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="cuisine" value="3"/>
+                        <input type="radio" name="cuisine" value="3"/>
                         <label>Chinese</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="cuisine" value="4"/>
+                        <input type="radio" name="cuisine" value="4"/>
                         <label>Fast Food</label>
                     </div>
                     <div>
-                        <input type="checkbox" name="cuisine" value="5"/>
+                        <input type="radio" name="cuisine" value="5"/>
                         <label>Street Food</label>
                     </div>
                 </div>
-            </>
+            
         )
     }
 }

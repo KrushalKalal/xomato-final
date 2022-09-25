@@ -5,7 +5,7 @@ class Locality extends Component{
     render(){
         return(
             <section class="locality_section">
-            <h1>Popular localities in and around Ahmedabad</h1>
+            <h1>Popular localities in and around Xomato</h1>
             <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-6">
                 <div class="div_locality">

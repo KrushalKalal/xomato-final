@@ -5,13 +5,13 @@
     display: inline-block;
 }
 .imgDiv{
-    height:400px;
+    height:50vh;
     width:40%;
     float: left;
     border:5px groove gray
 }
 .imgDiv > img {
-    height:400px;
+    height:49vh;
     width:100%; 
 }
 .contentDiv{

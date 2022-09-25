@@ -23,9 +23,14 @@ class CostFilter extends Component{
 
     render(){
         return(
-            <>
+        
               <div class="filter_price filter_margin" onChange={this.filterCuisine}>
                     <span>Cost For Two</span>
+                    <div>
+                        <input type="radio" name="price" value=""/>
+                        <label> All </label>
+                    </div>
+
                      <div>
                          <input type="radio" name="price"  value="200-500"/>
                          <label><i class="fa-solid fa-indian-rupee-sign"></i>200-500</label>
@@ -43,7 +48,7 @@ class CostFilter extends Component{
                         <label><i class="fa-solid fa-indian-rupee-sign"></i>1500-2000</label>
                     </div>
                  </div>
-            </>
+
         )
     }
 }

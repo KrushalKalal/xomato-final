@@ -115,7 +115,7 @@
 }
 
 
-@media only screen and (min-width: 576px) and (max-width: 767px) {
+@media only screen and (min-width: 577px) and (max-width: 767px) {
     .header_section{
       height: 50vh;
     }
@@ -155,7 +155,7 @@
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header_section{
-      height: 53vh;
+      height: 72vh;
     }
     .zomato_background{
      top:0vh;
@@ -163,7 +163,7 @@
     }
  
     .zomato_head{
-     margin-top: 150px;
+     margin-top: 88px;
     }
     
    .zomato_head img {
@@ -183,7 +183,7 @@
 
 @media only screen and (min-width: 992px) and (max-width: 1440px){
     .header_section{
-        height: 56vh;
+        height: 88vh;
       }
       .zomato_background{
        top:0vh;
@@ -191,7 +191,7 @@
       }
    
       .zomato_head{
-       margin-top: 130px;
+       margin-top: 87px;
       }
       
      .zomato_head img {
