@@ -36,6 +36,7 @@ class Details extends Component {
 
     render(){
         let {details} = this.state
+        console.log(details)
         return(
             <>  
                 <Header/>
@@ -48,7 +49,7 @@ class Details extends Component {
                         <span>{details.counter} Customers Say {details.rating} </span>
                         <h3><del>Old Price: Rs.1000</del></h3>
                         <h3>New Price: Rs.{details.price}</h3>
-                        <h3>Best Taste of Fresh Chai with Samosa At your Door or DineIn</h3>
+                        <h3>Best Taste in {details.address} </h3>
                         <div class="feature_container">
                             <figure>
                                 <img src="https://i.ibb.co/wJvrhYg/veg.png" class="featureIcon"/>
@@ -80,7 +81,7 @@ class Details extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-12">
+                <div className="col-md-12 menu_data">
                     <MenuDisplay menudata={this.state.menuList}
                     finalOrder={(data)=>{this.addToCart(data)}}
                     />

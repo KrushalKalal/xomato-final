@@ -49,8 +49,7 @@ class PlaceOrder extends Component{
             },
             body:JSON.stringify(obj)
         })
-        .then(this.props.history.push('/viewBooking'))
-        //.then(console.log('order added'))
+        .then(this.props.history.push('/viewOrder'))
        
     }
  
@@ -87,7 +86,7 @@ class PlaceOrder extends Component{
                 <div className="container">
                     <div className="panel panel-primary">
                         <div className="panel-heading">
-                            Employee
+                            Xomato
                         </div>
                         <div className="panel-body">
                             <form>

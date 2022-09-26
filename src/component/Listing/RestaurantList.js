@@ -55,7 +55,7 @@ const RestaurantList = (props) => {
         }else{
             return(
                 <div>
-                    <img src="/images/loader.gif" alt="loader"/>
+                    <img src="https://i.ibb.co/Y24CWWZ/loader.gif" alt="loader"/>
                     <h2>Loading.....</h2>
                 </div>
             )
