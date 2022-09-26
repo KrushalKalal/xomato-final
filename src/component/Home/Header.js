@@ -136,6 +136,7 @@ class Header extends Component{
     }
 
     componentDidMount(){
+        sessionStorage.setItem('loginStatus','LoggedOut')
         Promise.all([fetch(cityUrl), fetch(url,{
             method: 'GET',
             headers:{
